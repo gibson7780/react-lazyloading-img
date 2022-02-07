@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 280px;
+  height: 280px;
+  background: #aaa;
+  margin: 10px;
+}
+.observer {
+  margin: 15px auto;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #60a917;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* .box.active {
+  height: 280px;
+} */
